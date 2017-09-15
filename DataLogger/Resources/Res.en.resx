@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="automatic_monitoring_text" xml:space="preserve">
+    <value>AUTOMATIC MONITORING</value>
+  </data>
+  <data name="auto_sampler_title" xml:space="preserve">
+    <value>Auto Sampler</value>
+  </data>
+  <data name="control_panel_title" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="drain_valve" xml:space="preserve">
+    <value>Drain Valve</value>
+  </data>
+  <data name="filtering_system_cleaning" xml:space="preserve">
+    <value>Cleaning</value>
+  </data>
+  <data name="filtering_system_title" xml:space="preserve">
+    <value>Filtering System</value>
+  </data>
+  <data name="filtering_system_water_level" xml:space="preserve">
+    <value>Water level</value>
+  </data>
+  <data name="form_1_hour_title" xml:space="preserve">
+    <value>1 Hour Data</value>
+  </data>
+  <data name="form_5_minute_title" xml:space="preserve">
+    <value>5 Minute Data</value>
+  </data>
+  <data name="form_calibrate_data_title" xml:space="preserve">
+    <value>Calibrate Data</value>
+  </data>
+  <data name="form_calibrate_formula_used" xml:space="preserve">
+    <value>Formula used:</value>
+  </data>
+  <data name="form_calibrate_re_calibration" xml:space="preserve">
+    <value>Re-calibration</value>
+  </data>
+  <data name="form_change_password_button_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="form_change_password_new_password" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="form_change_password_re_enter_new_password" xml:space="preserve">
+    <value>Re-enter New Password</value>
+  </data>
+  <data name="form_change_password_title" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="form_history_preview_group_box_title" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="form_history_preview_group_hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="form_history_preview_group_inteval_time" xml:space="preserve">
+    <value>Interval Time</value>
+  </data>
+  <data name="form_history_preview_group_minute" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="form_history_select_group_1_hour_data" xml:space="preserve">
+    <value>1 Hour Data</value>
+  </data>
+  <data name="form_history_select_group_5_min_data" xml:space="preserve">
+    <value>5 Min Data</value>
+  </data>
+  <data name="form_history_select_group_box_title" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="form_history_select_group_button_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="form_history_select_group_button_ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="form_history_select_group_custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="form_history_select_group_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="form_history_select_group_graph_type" xml:space="preserve">
+    <value>Graph Type</value>
+  </data>
+  <data name="form_history_select_group_list_type" xml:space="preserve">
+    <value>List Type</value>
+  </data>
+  <data name="form_history_select_group_select_all" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="form_history_select_group_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="form_history_title" xml:space="preserve">
+    <value>History Data</value>
+  </data>
+  <data name="form_login_button_login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="form_login_info_wrong_data" xml:space="preserve">
+    <value>Incorrect username or password</value>
+  </data>
+  <data name="form_login_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="form_login_title" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="form_login_user_name" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="form_maintenance_operator_auto_sampler" xml:space="preserve">
+    <value>Auto sampler</value>
+  </data>
+  <data name="form_maintenance_operator_button_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="form_maintenance_operator_button_start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="form_maintenance_operator_button_stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="form_maintenance_operator_end_time" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="form_maintenance_operator_equipment" xml:space="preserve">
+    <value>EQUIPMENTS</value>
+  </data>
+  <data name="form_maintenance_operator_group" xml:space="preserve">
+    <value>OPERATOR</value>
+  </data>
+  <data name="form_maintenance_operator_group_operator_name" xml:space="preserve">
+    <value>Operator name</value>
+  </data>
+  <data name="form_maintenance_operator_id_number" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="form_maintenance_operator_incident" xml:space="preserve">
+    <value>Incident</value>
+  </data>
+  <data name="form_maintenance_operator_maintenance_date" xml:space="preserve">
+    <value>Maintenance date</value>
+  </data>
+  <data name="form_maintenance_operator_maintenance_reason" xml:space="preserve">
+    <value>Maintenance reason</value>
+  </data>
+  <data name="form_maintenance_operator_note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="form_maintenance_operator_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="form_maintenance_operator_periodic" xml:space="preserve">
+    <value>Periodic</value>
+  </data>
+  <data name="form_maintenance_operator_pumping_system" xml:space="preserve">
+    <value>Pumping system</value>
+  </data>
+  <data name="form_maintenance_operator_start_time" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="form_maintenance_title" xml:space="preserve">
+    <value>Maintenance Report</value>
+  </data>
+  <data name="form_register_button_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="form_register_id_number" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="form_register_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="form_register_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="form_register_re_enter_password" xml:space="preserve">
+    <value>Re-enter Password</value>
+  </data>
+  <data name="form_register_title" xml:space="preserve">
+    <value>Register User</value>
+  </data>
+  <data name="form_register_user_name" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="form_user_management_button_add_new" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="form_user_management_button_change_password" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="form_user_management_button_save_changes" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="form_user_management_button_set_default_password" xml:space="preserve">
+    <value>Set default password</value>
+  </data>
+  <data name="form_user_management_delete_selected_user" xml:space="preserve">
+    <value>Delete selected user</value>
+  </data>
+  <data name="form_user_management_id_number" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="form_user_management_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="form_user_management_selected_user_infor_group" xml:space="preserve">
+    <value>Selected User info</value>
+  </data>
+  <data name="form_user_management_title" xml:space="preserve">
+    <value>User Management</value>
+  </data>
+  <data name="form_user_management_username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="form_user_management_user_group" xml:space="preserve">
+    <value>User Group</value>
+  </data>
+  <data name="left_menu_history_text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="left_menu_maintenance_text" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="left_menu_monthly_report" xml:space="preserve">
+    <value>Monthly Report</value>
+  </data>
+  <data name="left_menu_setting_text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="left_menu_user_management_text" xml:space="preserve">
+    <value>User management</value>
+  </data>
+  <data name="main_menu_language" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="main_menu_guest" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="main_menu_title" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="main_menu_welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="pumping_system_left_fault" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="pumping_system_left_manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="pumping_system_left_run" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="pumping_system_left_stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="pumping_system_pump1" xml:space="preserve">
+    <value>Pump 1</value>
+  </data>
+  <data name="pumping_system_pump2" xml:space="preserve">
+    <value>Pump 2</value>
+  </data>
+  <data name="pumping_system_right_auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="pumping_system_right_fault" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="pumping_system_right_manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="pumping_system_right_run" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="pumping_system_right_stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="pumping_system_title" xml:space="preserve">
+    <value>Pumping System</value>
+  </data>
+  <data name="pumpping_system_left_auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="sampler_tank_title" xml:space="preserve">
+    <value>Sampler Tank</value>
+  </data>
+  <data name="station_status_fire_detector" xml:space="preserve">
+    <value>Fire detector</value>
+  </data>
+  <data name="station_status_humidity" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="station_status_main_door" xml:space="preserve">
+    <value>Main Door</value>
+  </data>
+  <data name="station_status_main_power" xml:space="preserve">
+    <value>Main Power</value>
+  </data>
+  <data name="station_status_temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="station_status_title" xml:space="preserve">
+    <value>Station Status</value>
+  </data>
+  <data name="surface_water_quality_text" xml:space="preserve">
+    <value>SURFACE WATER QUALITY</value>
+  </data>
+  <data name="thai_nguyen_station_text" xml:space="preserve">
+    <value>THAI NGHUYEN STATION</value>
+  </data>
+  <data name="please_check_system" xml:space="preserve">
+    <value>This function is not working! Please contact the system administrator.</value>
+  </data>
+  <data name="right_permission_error" xml:space="preserve">
+    <value>You do not have the right to use this function.</value>
+  </data>
+  <data name="monthly_report_yesno_question" xml:space="preserve">
+    <value>Do you want to export monthly report?</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="delete_successfully." xml:space="preserve">
+    <value>Delete successfully.</value>
+  </data>
+  <data name="delete_fail" xml:space="preserve">
+    <value>Delete fails.</value>
+  </data>
+  <data name="please_check_pass" xml:space="preserve">
+    <value>Please insert your password.</value>
+  </data>
+  <data name="check_same_password_error" xml:space="preserve">
+    <value>Please check your password, 'Password' and 'Re-enter Password' are not same.</value>
+  </data>
+  <data name="change_password_successfully" xml:space="preserve">
+    <value>Change password successfully.</value>
+  </data>
+  <data name="change_password_fail" xml:space="preserve">
+    <value>Change password fails.</value>
+  </data>
+  <data name="login_before_to_do_this" xml:space="preserve">
+    <value>Please login to use this function.</value>
+  </data>
+  <data name="successfully" xml:space="preserve">
+    <value>Successfully.</value>
+  </data>
+  <data name="fail" xml:space="preserve">
+    <value>Fail.</value>
+  </data>
+  <data name="pumping_system_maintenance" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="data_logger_system" xml:space="preserve">
+    <value>Data Logger System</value>
+  </data>
+  <data name="form_history_select_analyzer" xml:space="preserve">
+    <value>Analyzer</value>
+  </data>
+  <data name="form_history_select_mps" xml:space="preserve">
+    <value>MPS</value>
+  </data>
+  <data name="form_history_select_custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="form_history_select_sampler_system" xml:space="preserve">
+    <value>Sampler system</value>
+  </data>
+  <data name="form_history_select_station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="form_history_preview_interval_time" xml:space="preserve">
+    <value>Interval Time</value>
+  </data>
+  <data name="form_history_preview_view_type" xml:space="preserve">
+    <value>View type</value>
+  </data>
+  <data name="configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="station_configuration" xml:space="preserve">
+    <value>Station Configuration</value>
+  </data>
+  <data name="comport_configuration" xml:space="preserve">
+    <value>Comport Configuration</value>
+  </data>
+  <data name="module_configuration" xml:space="preserve">
+    <value>Module Configuration</value>
+  </data>
+  <data name="station_name" xml:space="preserve">
+    <value>Station name</value>
+  </data>
+  <data name="station_id" xml:space="preserve">
+    <value>Station ID</value>
+  </data>
+  <data name="socket_port" xml:space="preserve">
+    <value>Socket port</value>
+  </data>
+  <data name="comport" xml:space="preserve">
+    <value>Comport</value>
+  </data>
+  <data name="protocol" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="sampler" xml:space="preserve">
+    <value>Sampler</value>
+  </data>
+  <data name="button_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="available_port_null" xml:space="preserve">
+    <value>There is no available comport. Please check the system.</value>
+  </data>
+  <data name="system_error" xml:space="preserve">
+    <value>System error. Please contact the system administrator.</value>
+  </data>
+  <data name="fault" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="station_status_air1" xml:space="preserve">
+    <value>Cooling 1</value>
+  </data>
+  <data name="station_status_air2" xml:space="preserve">
+    <value>Cooling 2</value>
+  </data>
+  <data name="normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="run" xml:space="preserve">
+    <value>Standby</value>
+  </data>
+  <data name="runACK" xml:space="preserve">
+    <value>ACK</value>
+  </data>
+  <data name="runNAK" xml:space="preserve">
+    <value>NAK</value>
+  </data>
+</root>

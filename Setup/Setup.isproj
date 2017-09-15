@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015Limited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\DataLogger\DataLogger.csproj">
+			<Name>DataLogger</Name>
+			<Project>{35C4E477-4350-4800-8A21-3D4E87322BC4}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DataLogger.Data\DataLogger.Data.csproj">
+			<Name>DataLogger.Data</Name>
+			<Project>{217EBB00-B4D9-4C92-804F-CDA2AAF72EAA}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Entities\DataLogger.Entities.csproj">
+			<Name>DataLogger.Entities</Name>
+			<Project>{A0BF8886-67EE-4244-910D-222B14267B69}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\VerticalProgressBar\VerticalProgressBar.csproj">
+			<Name>VerticalProgressBar</Name>
+			<Project>{69C48FB8-6FF1-467F-BDCA-D524CC544ACA}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>
